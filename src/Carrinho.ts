@@ -32,7 +32,7 @@ export class Carrinho {
 
     }
 
-    alterarQuantidadeProduto(idProduto: number, quantidade: number) {
+    alterarQuantidadeProduto(idProduto: number, quantidade: number): string {
         const produtoEncontrado = this.produtos.find(produto => produto.id === idProduto)//find retorna todo o objeto
 
 
