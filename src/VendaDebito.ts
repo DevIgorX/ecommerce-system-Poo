@@ -14,7 +14,7 @@ export class VendaDebito extends Venda implements IVendas {
 
 
     aplicarDesconto(): void {
-        this.total = this.total + (this.total * this.desconto)
+        this.total = this.total - (this.total * this.desconto)
     }
 
 
